@@ -26,7 +26,10 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
-
+.subtitle-container{
+    display: flex;
+    justify-content: center;
+}
 .bloc {
     width: 100%;
     clear: both;
@@ -678,6 +681,21 @@ a {
 
 p {
     font-size: 11px;
+}*
+.p-subtitle{
+    font-size: 22px;
+    width: 60%
+}
+.p-subtitle-portfolio{
+    font-size: 22px;
+    width: 42%
+}
+.p-subtitle-citation{
+    font-size: 22px;
+    font-style: italic;
+}
+.p-citation-personne{
+    font-size: 15px
 }
 
 .tight-width-whitespace {
@@ -822,7 +840,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.png");
 }
 
 @media (max-width: 1024px) {
