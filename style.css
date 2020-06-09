@@ -17,6 +17,12 @@ button {
     display: flex;
     justify-content: center;
 }
+.form-container{
+    justify-content: center;
+}
+.infos-contact{
+    text-align: center;
+}
 .logoChouette{
     width: 100px;
     margin-left:auto;
@@ -25,6 +31,17 @@ button {
 .logoContainer{
     display: flex;
     flex-direction: column;
+}
+.page-container{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 100vh
+}
+.link-container{
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .bloc {
     width: 100%;
@@ -192,15 +209,6 @@ button {
 }
 
 
-.navbar-toggle {
-    margin: 10px 10px 0 0;
-    border: 0px;
-}
-
-.navbar-toggle .icon-bar {
-    background-color: rgba(0, 0, 0, .5);
-    width: 26px;
-}
 
 .mg-md {
     margin-top: 10px;
