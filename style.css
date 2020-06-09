@@ -38,7 +38,7 @@ button {
     height: 100vh
 }
 .link-container{
-    width: 10vw;
+    width: 20vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
