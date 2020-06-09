@@ -197,7 +197,6 @@ button {
     height: auto;
     padding: 3px 15px;
     font-size: 25px;
-    font-weight: normal;
     font-weight: 600;
     line-height: 44px;
 }
@@ -401,5 +400,3 @@ h1 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.png");
 }
-
-
