@@ -206,8 +206,13 @@ button {
     margin: 0 5px 0 0;
     display: inline;
 }
-
-
+.navbar-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    border-bottom: 1px #F3976C solid
+}
 
 .mg-md {
     margin-top: 10px;
