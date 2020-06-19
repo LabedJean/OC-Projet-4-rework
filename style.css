@@ -59,6 +59,15 @@ button {
     flex-direction: row;
     justify-content: space-between;
 }
+.mapgoogle{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.footer-container{
+    padding-top: 5px !important;
+    padding-bottom: 0 !important;
+}
 .bloc {
     width: 100%;
     clear: both;
