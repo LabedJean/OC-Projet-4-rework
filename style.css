@@ -23,6 +23,16 @@ button {
 .form-container{
     justify-content: center;
 }
+.contactOurTeam{
+    font-size: 18px
+}
+.googlemapimage{
+    margin-bottom: 10px;
+}
+.googlemapimagecontainer{
+    display: flex;
+    justify-content: center;
+}
 .footer-title{
     font-size: 18px ;
 }
@@ -60,7 +70,6 @@ button {
     background-size: cover;
     position: relative;
 }
- footer-title
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
@@ -293,7 +302,7 @@ p {
 }
 .p-subtitle-portfolio{
     font-size: 22px;
-    width: 42%
+    width: 64%
 }
 .p-subtitle-citation{
     font-size: 22px;
@@ -436,7 +445,7 @@ h1 {
     }
     .portfolio-thumb {
         margin-bottom: 24px;
-        width: 205px;
+        width: 240px;
     }
     .bloc-sm {
         padding: 0  !important;
