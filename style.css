@@ -38,6 +38,7 @@ button {
 }
 .infos-contact{
     text-align: center;
+    color : #333333 !important 
 }
 .logoChouette{
     width: 100px;
@@ -399,10 +400,12 @@ h1 {
 .tc-white {
     color: #F3976C!important;
 }
-
+.color-title{
+    color : #333333 !important 
+}
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #333333!important;
 }
 
 .ltc-white {
