@@ -1,3 +1,6 @@
+
+
+
 body {
     margin: 0;
     padding: 0;
@@ -19,6 +22,9 @@ button {
 }
 .form-container{
     justify-content: center;
+}
+.footer-title{
+    font-size: 18px ;
 }
 .infos-contact{
     text-align: center;
@@ -54,7 +60,7 @@ button {
     background-size: cover;
     position: relative;
 }
-
+ footer-title
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
@@ -192,6 +198,9 @@ button {
     margin-bottom: 0;
     z-index: 1;
 }
+.navbar-nav {
+    margin-left: auto;
+}
 
 .navbar-brand {
     height: auto;
@@ -211,7 +220,8 @@ button {
     top: 0;
     left: 0;
     z-index: 2;
-    border-bottom: 1px #F3976C solid
+    border-bottom: 1px #F3976C solid;
+    width: 100%;
 }
 
 .mg-md {
@@ -310,6 +320,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    margin-bottom: 15px;
 }
 
 h2 {
@@ -345,7 +356,7 @@ h1 {
 .portfolio-thumb {
     margin-bottom: 24px;
     width: 270px;
-    height: 270px
+    height: auto
 }
 
 .portfolio-row {
@@ -395,13 +406,44 @@ h1 {
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/texture-portfolio.png");
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/paralax.jpg");
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.png");
 }
+
+
+@media screen and (max-width: 640px) {
+   .googlemapimage{
+        width: 285px;
+   }
+    .p-subtitle{
+       width: 100%;
+       font-size: 18px;
+       text-align: center;
+   }
+   .p-subtitle-portfolio {
+    font-size: 18px;
+    width: 100%;
+    }
+    .tc-white {
+        font-size: 17px;
+    }
+    .portfolio-thumb {
+        margin-bottom: 24px;
+        width: 205px;
+    }
+    .bloc-sm {
+        padding: 0  !important;
+    }
+    .googlemapimagecontainer{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+  }
