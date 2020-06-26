@@ -126,7 +126,7 @@ button {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -422,11 +422,11 @@ h1 {
 
 
 .bg-banniere {
-    background-image: url("img/paralax.jpg");
+    background-image: url("img/paralax.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.png");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 
@@ -458,4 +458,28 @@ h1 {
         justify-content: center;
         padding: 10px;
     }
+    .color-title{
+    font-size: 18px;
+
+    }
+    .social-subcontainer{
+        width: 10%
+    }
+    .social{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around
+    }
+    .footer-title{
+        padding: 10px
+    }
+    
   }
+
+  @media screen and (max-width: 768px) {
+    .form-container{
+        flex-direction: column;
+    align-content: center;
+    }
+     
+   }
