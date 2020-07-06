@@ -35,6 +35,11 @@ button {
     font-size: 18px ;
     color : #333333 !important 
 }
+.partenaires{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .infos-contact{
     text-align: center;
     color : #333333 !important 
